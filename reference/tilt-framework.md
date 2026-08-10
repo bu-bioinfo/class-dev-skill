@@ -31,20 +31,46 @@ Define what the finished product looks like — before students start working, n
 - State whether/how the work is graded and how it factors into the course grade.
 - Build in a reflection step after grading: ask students what they'd change about their process next time — this is where the learning-strategy payoff compounds.
 
+## Presentation formats
+
+TILT doesn't mandate one visual layout — it mandates that Purpose, Task, and
+Criteria each be *literally labeled* so students can find them. Two shapes are
+both valid and covered by this skill:
+
+- **Single-assignment prompt** — top-level `## Purpose` / `## Task` /
+  `## Criteria for Success` headers, one set per assignment. Use
+  `templates/tilt-assignment-template.md`.
+- **Syllabus-level numbered objectives list** — a `## Objective {N}: {title}`
+  heading per objective, with inline-labeled prose underneath: **Purpose — Why
+  this matters:**, **Task — What you will do:**, **Criteria — How you'll know
+  you're succeeding:**. Use `templates/tilt-learning-objectives-template.md`.
+  This is the pattern used in `examples/science-comm-worked-example.md`. It still
+  satisfies every "literally labeled" checklist item below — the label just
+  needs to contain the word (Purpose/Task/Criteria), not be its own header.
+
+At objective-list granularity, some checklist items below (multiple graded-example
+comparisons, explicit grading weight) are often satisfied elsewhere in the
+syllabus rather than repeated per objective — that's fine; note where, rather
+than treating the absence as a gap.
+
+Bloom's-Taxonomy verbs are a tool for Purpose clarity, not a hard requirement —
+affective/psychomotor objectives (confidence, delivery technique, collaboration)
+are legitimately named in plain language when a cognitive verb would be forced.
+
 ## Compact self-audit checklist
 
 Use this to check a drafted assignment before finalizing (derived from the full TILT Checklist for Designing Transparent Assignments):
 
-- [ ] Due date(s) stated at the top
-- [ ] A section literally labeled "Purpose" exists
+- [ ] Due date(s) stated at the top (assignment-prompt format only — not applicable to a syllabus-level objectives list)
+- [ ] A section or inline label containing the word "Purpose" exists
 - [ ] Purpose states which skills this practices and why they matter beyond this assignment/course
-- [ ] Purpose uses Bloom's-Taxonomy language (understanding / applying / analyzing / synthesizing / judging / evaluating / creating / inventing)
-- [ ] Purpose names the specific disciplinary knowledge/content involved
-- [ ] A section literally labeled "Task" exists
+- [ ] Purpose uses Bloom's-Taxonomy language where the skill is cognitive (understanding / applying / analyzing / synthesizing / judging / evaluating / creating / inventing) — plain language is acceptable for affective/psychomotor skills
+- [ ] Purpose names the specific disciplinary knowledge/content involved, if this objective targets knowledge and not just a skill
+- [ ] A section or inline label containing the word "Task" exists
 - [ ] Task defines concrete actions/activities, not just the deliverable
 - [ ] Task lists guidelines and/or a recommended sequence
-- [ ] Task uses question cues matching the Bloom's level named in Purpose
-- [ ] A section literally labeled "Criteria for Success" exists
+- [ ] Task uses question cues matching the Bloom's level named in Purpose, where Purpose used one
+- [ ] A section or inline label containing the word "Criteria" exists
 - [ ] Criteria define the characteristics of the finished product
 - [ ] Criteria give multiple specific examples of what those characteristics look like in practice
 - [ ] A plan exists to analyze a good-work example with students before they start (even if not written into the handout — can be a class-discussion note-to-self)

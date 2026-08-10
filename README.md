@@ -12,9 +12,12 @@ The skill (`SKILL.md`) walks a drafting workflow rather than just handing back a
 blank template:
 
 - **TILT drafting** — builds Purpose / Task / Criteria sections using Bloom's
-  Taxonomy language, then self-audits the draft against TILT's own transparent-
-  assignment checklist and flags gaps back to the instructor instead of silently
-  filling them in.
+  Taxonomy language (or plain language for affective/psychomotor skills like
+  confidence or delivery), then self-audits the draft against TILT's own
+  transparent-assignment checklist and flags gaps back to the instructor instead
+  of silently filling them in. Supports both a single assignment prompt
+  (header-per-section) and a syllabus-level numbered list of learning objectives
+  (inline-labeled Purpose/Task/Criteria per objective).
 - **AIAS level selection** — starts from the learning outcome being assessed, not
   the assignment's current format, to pick (or help the instructor pick) a level
   1–5 on the AI Assessment Scale (Perkins, Roe & Furze, 2025). Supports a single
@@ -33,8 +36,8 @@ once:
 - `reference/` — condensed TILT and AIAS framework guidance, and instructor-
   disclosure patterns with worked examples, all traceable back to source PDFs.
 - `templates/` — fill-in skeletons: a TILT assignment with an embedded AI-use
-  section, a standalone instructor-disclosure statement, and a per-component AIAS
-  policy table.
+  section, a numbered syllabus-level learning-objectives list, a standalone
+  instructor-disclosure statement, and a per-component AIAS policy table.
 - `examples/` — a real syllabus that already combines all three pieces, used as a
   model for tone and structure.
 - `context/` — the original source material (TILT Higher Ed templates and

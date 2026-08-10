@@ -38,12 +38,24 @@ are in `context/` if you need to quote something precisely.
    — don't invent learning objectives on their behalf. Read `reference/
    tilt-framework.md` for what "good" looks like in each of these before drafting.
 
-**3. Draft Purpose → Task → Criteria using `templates/tilt-assignment-template.md`
-   as the skeleton.** Use Bloom's-Taxonomy verbs consistently between Purpose
-   (what skill) and Task (what question cues/actions match that skill level).
-   If the instructor mentions deliberately withholding information for productive
-   struggle, write that rationale into the Task section explicitly rather than
-   leaving the ambiguity unexplained.
+**3. Draft Purpose → Task → Criteria, picking the right template shape first:**
+   - TILTing **one specific assignment/activity prompt** → `templates/
+     tilt-assignment-template.md` (top-level `## Purpose` / `## Task` /
+     `## Criteria for Success` headers).
+   - TILTing a **syllabus's overall numbered learning objectives** → `templates/
+     tilt-learning-objectives-template.md` (`## Objective {N}: {title}` heading
+     per objective, with inline-labeled **Purpose — Why this matters:** /
+     **Task — What you will do:** / **Criteria — How you'll know you're
+     succeeding:** prose underneath — the pattern in `examples/
+     science-comm-worked-example.md`). Number objectives sequentially.
+   Either way, use Bloom's-Taxonomy verbs consistently between Purpose (what
+   skill) and Task (what question cues/actions match that skill level) — except
+   for affective/psychomotor objectives (confidence, delivery, collaboration),
+   where plain language naming the skill is correct and forcing a cognitive verb
+   would be wrong (see `reference/tilt-framework.md`). If the instructor mentions
+   deliberately withholding information for productive struggle, write that
+   rationale into the Task section explicitly rather than leaving the ambiguity
+   unexplained.
 
 **4. Self-audit the draft against the checklist in `reference/
    tilt-framework.md`.** Surface any unchecked item to the instructor as a
@@ -87,6 +99,7 @@ are in `context/` if you need to quote something precisely.
 ## Templates
 
 - `templates/tilt-assignment-template.md` — TILT assignment skeleton with embedded AI-use section
+- `templates/tilt-learning-objectives-template.md` — numbered, syllabus-level TILT objectives with inline Purpose/Task/Criteria labels
 - `templates/instructor-ai-disclosure-template.md` — creator's own AI-use disclosure
 - `templates/component-level-ai-policy-table.md` — per-component AIAS policy table
 
