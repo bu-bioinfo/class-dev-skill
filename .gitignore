@@ -1,0 +1,8 @@
+.claude/settings.local.json
+
+# Windows/WSL download metadata (alternate data stream sidecar files)
+*:Zone.Identifier
+
+# OS junk
+.DS_Store
+Thumbs.db
