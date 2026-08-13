@@ -79,6 +79,13 @@ are in `context/` if you need to quote something precisely.
      components need different levels (very common — e.g., reflections at Level 1,
      drafting at Level 3). If multiple components, use `templates/
      component-level-ai-policy-table.md`.
+   - **Remind the instructor to make AIAS expectations findable for each task/
+     section, not just once for the whole document** — a multi-part lab or
+     multi-step assignment can easily have parts/steps that actually warrant a
+     different level. How that gets expressed (in a heading, an inline line, a
+     shared statement covering several parts, etc.) is the instructor's call —
+     what matters is that a level and a short rationale for it are actually
+     present somewhere per task/section, not the specific structure used to show it.
    - Don't just attach a number. Make sure the Task/Criteria sections from step 3
      actually reflect that level structurally (required evidence of process for
      Level 2–3, direction-and-critique framing for Level 4–5, invigilation context

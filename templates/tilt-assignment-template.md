@@ -13,7 +13,11 @@ frameworks this implements.
 
 {One or two sentences in the student-facing language from reference/aias-levels.md,
 adapted to this specific task. State the boundary explicitly — what's allowed and
-what still must be the student's own work.}
+what still must be the student's own work — and include a short reason this level
+fits what the assignment is actually assessing. If an individual step in the Task
+list below needs a different level than the rest, note that too, in whatever way
+reads most naturally — the important part is that the level and its reasoning are
+present somewhere, not the exact phrasing or placement.}
 
 ## Purpose
 
