@@ -34,8 +34,8 @@ Define what the finished product looks like — before students start working, n
 ## Presentation formats
 
 TILT doesn't mandate one visual layout — it mandates that Purpose, Task, and
-Criteria each be *literally labeled* so students can find them. Two shapes are
-both valid and covered by this skill:
+Criteria each be *literally labeled* so students can find them. Three shapes are
+valid and covered by this skill:
 
 - **Single-assignment prompt** — top-level `## Purpose` / `## Task` /
   `## Criteria for Success` headers, one set per assignment. Use
@@ -47,11 +47,19 @@ both valid and covered by this skill:
   This is the pattern used in `examples/science-comm-worked-example.md`. It still
   satisfies every "literally labeled" checklist item below — the label just
   needs to contain the word (Purpose/Task/Criteria), not be its own header.
+- **Multi-part lab/activity handout** — a `# {Lab N} - {Title}` header (plus an
+  **Estimated time:** line), then one `## Part N` per activity segment. Each
+  part's `### Instructions` come *before* its `### Learning Objectives` —
+  students read what they're doing before being told why, since the objectives
+  are framed as reflection on an activity rather than a task brief. Objectives
+  underneath are `#### {skill-named title}` headings (no numbering — the part
+  scopes them) with Purpose/Task/Criteria **blockquoted** (`>`) rather than
+  plain prose. Use `templates/tilt-lab-activity-template.md`.
 
-At objective-list granularity, some checklist items below (multiple graded-example
-comparisons, explicit grading weight) are often satisfied elsewhere in the
-syllabus rather than repeated per objective — that's fine; note where, rather
-than treating the absence as a gap.
+At objective-list or lab-activity granularity, some checklist items below
+(multiple graded-example comparisons, explicit grading weight) are often
+satisfied elsewhere in the syllabus rather than repeated per objective — that's
+fine; note where, rather than treating the absence as a gap.
 
 Bloom's-Taxonomy verbs are a tool for Purpose clarity, not a hard requirement —
 affective/psychomotor objectives (confidence, delivery technique, collaboration)

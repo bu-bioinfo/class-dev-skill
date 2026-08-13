@@ -24,6 +24,40 @@ A credible instructor disclosure statement has four components, in this order:
 
 That last example is the strongest model to imitate: it (a) cites the framework and version, (b) reuses the AIAS's own vocabulary to describe the *instructor's* process — which only works if the instructor's workflow actually maps onto specific levels — (c) narrates the actual workflow (manual-first, then AI-assisted revision), and (d) draws an explicit, separate boundary line for what AI will never touch (student grading/feedback), which matters more to students than the creation-process disclosure itself.
 
+## Multi-artifact disclosures
+
+A single lab/activity folder often bundles several artifacts with genuinely
+different AI-authorship provenance — a narrative README, a companion worksheet
+that's a mechanical, fill-in-the-blank derivative of the README's own Task/
+Criteria text, and generated analysis or data-processing code. Collapsing these
+into one blanket statement ("AI was used to help build this lab") hides exactly
+the distinction that makes the disclosure credible. Disclose each artifact
+separately:
+
+- **Narrative content** (README prose, case write-ups, learning objectives):
+  state the actual editorial role — e.g., "used to edit existing text for
+  clarity and organization and to suggest draft learning objectives," critically
+  reviewed and edited by the instructor before inclusion.
+- **Structural/mechanical derivatives** (a worksheet template whose fields are
+  algorithmically derived from another document's own headings/prompts): name
+  it as "fully AI-generated" *and* explain why that's low-risk — it's a fixed
+  structural derivation of already-instructor-authored content, not original
+  narrative or graded content.
+- **Generated code** (analysis pipelines, data-processing scripts): name the
+  actual workflow if one was used — e.g., a behavior-driven design (BDD)
+  workflow where test/behavior specifications were written first and AI
+  generated implementation code to satisfy them — and state that the instructor
+  manually reviewed and tested it before use.
+- **What was authored manually, with no AI involvement at all** (e.g., case data,
+  grading criteria): say so explicitly and by name. This is as load-bearing as
+  disclosing what *was* AI-assisted — students and reviewers need to know which
+  artifacts are fully human-authored ground truth.
+
+Close with one explicit **Boundary** line that covers the whole bundle (e.g.,
+"AI was not used to generate case data or grading criteria, and is not used to
+evaluate or grade student submissions") — don't let the boundary get diluted by
+being restated per-artifact.
+
 ## Guidance for drafting one with an instructor
 
 - Ask what was actually used, don't assume — ideation only? Drafting? Editing? Formatting/slide generation? Literature search? Code/data-pipeline help? Each implies different disclosure language.

@@ -48,7 +48,15 @@ are in `context/` if you need to quote something precisely.
      **Task — What you will do:** / **Criteria — How you'll know you're
      succeeding:** prose underneath — the pattern in `examples/
      science-comm-worked-example.md`). Number objectives sequentially.
-   Either way, use Bloom's-Taxonomy verbs consistently between Purpose (what
+   - TILTing a **multi-part lab/activity handout** (a session with discrete
+     segments, e.g. a discussion part plus a hands-on case-analysis part) →
+     `templates/tilt-lab-activity-template.md` (`# Lab N - Title` header with an
+     **Estimated time:** line, then one `## Part N` per segment; each part's
+     `### Instructions` come *before* its `### Learning Objectives`; objectives
+     are `#### {skill-named title}` headings with Purpose/Task/Criteria
+     **blockquoted** underneath). Don't put objectives before instructions in
+     this shape — students need to know what they're doing first.
+   Whichever shape, use Bloom's-Taxonomy verbs consistently between Purpose (what
    skill) and Task (what question cues/actions match that skill level) — except
    for affective/psychomotor objectives (confidence, delivery, collaboration),
    where plain language naming the skill is correct and forcing a cognitive verb
@@ -100,6 +108,7 @@ are in `context/` if you need to quote something precisely.
 
 - `templates/tilt-assignment-template.md` — TILT assignment skeleton with embedded AI-use section
 - `templates/tilt-learning-objectives-template.md` — numbered, syllabus-level TILT objectives with inline Purpose/Task/Criteria labels
+- `templates/tilt-lab-activity-template.md` — multi-part lab/activity handout with per-part Instructions → Learning Objectives and blockquoted Purpose/Task/Criteria
 - `templates/instructor-ai-disclosure-template.md` — creator's own AI-use disclosure
 - `templates/component-level-ai-policy-table.md` — per-component AIAS policy table
 

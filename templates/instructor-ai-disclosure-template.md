@@ -3,6 +3,13 @@ Fill-in template for the instructor/creator's OWN AI-use disclosure — distinct
 the student-facing AIAS policy. See reference/ai-disclosure-patterns.md for the
 pattern this follows and worked examples. Place this near, but visually separate
 from, the student AI-use policy in the syllabus.
+
+If this material bundles multiple artifacts with different AI-authorship
+provenance (a README, a mechanically-derived worksheet, generated analysis code,
+manually-authored data) — the common case for a lab/activity built from
+templates/tilt-lab-activity-template.md — disclose each artifact separately
+per "Multi-artifact disclosures" in reference/ai-disclosure-patterns.md instead
+of collapsing them into the single paragraph below.
 -->
 
 ## AI Use Disclosure (Course Materials)
